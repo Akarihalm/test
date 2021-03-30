@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Models;
+
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Model;#uses#
+
+/**
+ * Class #class#
+ *
+#annotations#
+ *
+ * @package App\Models
+ */
+class #class# extends Model
+{#trait#
+    protected $table = '#table#';
+
+    protected $casts = [#casts#
+    ];
+
+    protected $dates = [#dates#
+    ];
+
+    protected $fillable = [#fillable#
+    ];
+
+#relations#}

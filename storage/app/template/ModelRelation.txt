@@ -1,0 +1,4 @@
+    public function #method#()
+    {
+        return $this->#type#(#class#::class);
+    }

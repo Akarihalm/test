@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Enums;
+
+use App\Service\BaseEnum;
+
+/**
+ * Class #class#
+ * @package App\Enums
+ *
+#annotation#
+ */
+
+class #class# extends BaseEnum
+{
+#constant#
+
+    /**
+     * @return string[]
+     */
+    public function display()
+    {
+        return [
+#display#
+        ];
+    }
+}

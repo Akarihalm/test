@@ -1,0 +1,15 @@
+<?php
+
+use App\Utils\TableConfigManager;
+
+return [
+    'table' => '#table#',
+    'settings' => [
+        'soft_delete' => true,
+        'by_user' => false,
+        'index' => null,
+        'unique' => null,
+    ],
+    'columns' => [
+#columns#    ]
+];
